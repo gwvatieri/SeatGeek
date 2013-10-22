@@ -1,0 +1,13 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="SeatGeekTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/SeatGeekActionBar</item>
+    </style>
+
+    <style name="SeatGeekActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/blue</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+    
+</resources>

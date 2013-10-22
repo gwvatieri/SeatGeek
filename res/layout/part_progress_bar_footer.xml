@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/list_footer_indicator_container" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content" 
+		android:gravity="center_horizontal"
+		android:background="@color/blue">
+		
+		<TextView
+		    android:id="@+id/footer_text"  
+			android:layout_centerVertical="true" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="Loading events..."
+			android:textSize="16sp"
+			android:textColor="#ffffff" 
+			/>
+			
+		<ProgressBar
+		    android:layout_toRightOf="@+id/footer_text"
+			android:layout_width="42dip" 
+			android:layout_height="42dip" 
+			android:paddingLeft="7dip"
+			android:indeterminateBehavior="repeat"
+			android:indeterminateDrawable="@drawable/progress_spinner" 
+			style="?android:attr/progressBarStyleLarge"
+			 />
+			 
+	</RelativeLayout>
